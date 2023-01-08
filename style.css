@@ -1,0 +1,37 @@
+:root{
+ font-size: 16px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: url(images/background.jpg);
+    background-size: cover;
+    transition: 0.1s ease-in;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    /* you have to specify the height so that the items are centered */
+    align-items: center;
+    /* vh is the viewport height */
+    height: 80vh;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 5px;
+}
+kbd{
+    font-size: 2.25rem;
+}
+span{
+    font-size: 0.75rem;
+    text-transform:uppercase;
+}
